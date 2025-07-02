@@ -8,3 +8,5 @@ pages_build_output_dir = ".vercel/output/static"
 # Configuration: https://developers.cloudflare.com/workers/observability/logs/workers-logs/#enable-workers-logs
 [observability]
 enabled = true
+[vars]
+NODE_VERSION = "20.11.1"
